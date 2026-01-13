@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh pr view:*)",
+      "Bash(gh pr list:*)",
+      "Bash(gh pr diff:*)",
+      "Bash(npm run dev:*)",
+      "Bash(timeout 5 tail:*)",
+      "Bash(exit 0)",
+      "Bash(gh issue list:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nReduce font size in Cast dropdown menu\n\nSet dropdown summary and menu items to 0.9rem for better visual hierarchy in the navigation bar.\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(cat:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd project configuration and dependencies\n\n- Update package-lock.json with peer dependency markers\n- Add Claude Code local settings for permissions\n- Add CLAUDE.md project instructions for AI assistance\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}
