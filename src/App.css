@@ -25,3 +25,8 @@ b {
   font-family: "Hubot Sans", sans-serif;
   color: var(--pico-color-violet-500);
 }
+
+.dropdown summary,
+.dropdown ul li a {
+  font-size: 0.9rem;
+}
